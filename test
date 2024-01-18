@@ -1,0 +1,18 @@
+number = int(input("Введите числ:"))
+
+def sum(number):
+    sum_num = 0
+    while number != 0:
+        sum_num += number % 10
+        number //= 10
+    return sum_num
+
+
+def quantity(number):
+    quantity_num = 0
+    while number != 0:
+        number //= 10
+        quantity_num += 1
+    return quantity_num
+
+print(sum(number) - quantity(number))
