@@ -3,4 +3,4 @@ def least_divisor ():
     for divider in range(2, number + 1):
         if number % divider == 0:
             return divider
-print(least_divisor())
+print(least_divisor
