@@ -2,8 +2,7 @@ number = int(input("Введите числ:"))
 
 def sum(number):
     sum_num = 0
-    while number != 0:
-        sum_num += number % 10
+    while number !=
         number //= 10
     return sum_num
 
